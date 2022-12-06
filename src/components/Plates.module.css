@@ -1,0 +1,21 @@
+.board__main {
+    padding: 3em 1em;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.board__heading {
+    font-size: 1.2rem;
+    padding: 2em;
+}
+
+.plates__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}

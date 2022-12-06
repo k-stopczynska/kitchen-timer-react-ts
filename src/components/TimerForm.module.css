@@ -1,0 +1,41 @@
+.form__control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem 2rem;
+}
+
+label {
+    text-transform: uppercase;
+    color: var(--color-main);
+}
+
+h2 {
+    color: var(--color-accent);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.user__input,
+.button__add__timer {
+    border: 3px solid var(--color-accent);
+    border-radius: 13px;
+    box-shadow: 1px 3px 3px var(--color-accent);
+    font-size: 1.5rem;
+    padding: 1em;
+    min-width: 100%;
+}
+
+.button__add__timer {
+    background: var(--color-main);
+    cursor: pointer;
+}
+
+.button__add__timer:hover,
+.button__add__timer:focus {
+    background: var(--color-accent);
+    border: 3px solid var(--color-main);
+}

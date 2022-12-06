@@ -1,0 +1,16 @@
+.plate {
+    border: 3px solid var(--color-accent);
+    border-radius: 50%;
+    box-shadow: 1px 3px 3px var(--color-accent);
+    cursor: pointer;
+    transform:rotateX(30deg);
+    background: var(--color-main);
+    font-size: 3rem;
+    width: 100px;
+    height: 100px;
+}
+
+.plate:hover,
+.plate:focus {
+    scale: 1.1;
+}
