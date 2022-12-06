@@ -1,3 +1,44 @@
+# Kitchen Timer
+
+This is a Kitchen Timer inpired by Thyme (similar application for iOS).
+
+## Table of contents
+
+  - [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+  - [Built with](#built-with)
+  - [Author](#author)
+
+## Overview
+
+Timer built with React + Typescript and CSS modules.
+
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Open a modal with form to write suspectable time for the dish to cook
+- Get written and sound notification when and where the dish is ready
+
+### Links
+
+- Solution URL: https://github.com/k-stopczynska/kitchen-timer-react-js
+- Live Site URL: https://kitchen-timer-ts-szam.netlify.app/
+
+### Built with
+
+- React
+- Typescript
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
