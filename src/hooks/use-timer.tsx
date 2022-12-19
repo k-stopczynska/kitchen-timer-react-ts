@@ -8,7 +8,6 @@ const useTimer = () => {
     if (counter !== null && counter > 0) {
       setCounter((prevCounter) => prevCounter ? prevCounter - 1 : null);
     } else {
-      //setCounter("");
       return;
     }
   }, [counter]);
@@ -22,10 +21,8 @@ const useTimer = () => {
   useEffect(() => {
     let intervalID: NodeJS.Timer;
     if (isClicked) {
-      intervalID = setInterval(changeTime, 10000);
-    } else if (!isClicked && counter !== 0) {
-      //clearInterval(intervalID);
-    }
+      intervalID = setInterval(changeTime, 60000);
+    } 
     return () => {
       clearInterval(intervalID);
     };

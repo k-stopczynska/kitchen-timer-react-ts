@@ -7,7 +7,7 @@ const TimerForm: React.FC<{
   toggle: () => void;
   open: (arg0: boolean) => void;
 }> = (props) => {
-  const submitFormHandler = (event: React.FormEvent<HTMLFormElement>) => {
+  const submitFormHandler = (event: React.FormEvent) => {
     event.preventDefault();
     const userTime = +(
       (event.target as HTMLElement).children[1] as HTMLInputElement
